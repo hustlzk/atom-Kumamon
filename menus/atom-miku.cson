@@ -1,0 +1,22 @@
+# TODO 修改成json文件吧不如
+'context-menu':
+  'atom-text-editor': [
+    {
+      'label': '打开/关闭异次元通'
+      'command': 'AtomKumamon:toggle'
+    }
+  ]
+'menu': [
+  {
+    'label': 'Packages'
+    'submenu': [
+      'label': 'Kumamon'
+      'submenu': [
+        {
+          'label': '打开/关闭异次元通'
+          'command': 'AtomKumamon:toggle'
+        }
+      ]
+    ]
+  }
+]

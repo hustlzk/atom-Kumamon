@@ -1,0 +1,58 @@
+.mmdContainer{
+  position: absolute;
+  z-index: 0;
+  width: 200px;
+  height: 300px;
+  background-color: transparent;
+  bottom: 400px;
+  right: 300px;
+}
+.mmdIframe{
+  width: 200%;
+  height: 200%;
+  border: none;
+  position: relative;
+}
+.mmdOverlay {
+  position: absolute;
+  width: 200%;
+  height: 200%;
+  top: 0;
+  left: 0;
+  background-color: transparent;
+  text-align: center;
+  cursor: move;
+}
+.btnGroup {
+  position: absolute;
+  left: -80;
+  width: 25%;
+  bottom: 68%;
+  display: none;
+}
+.kumamon_btn {
+  width: 100%;
+  border: 1px solid rgba(255,255,255,0.3);
+  background: transparent;
+  border-radius: px;
+  height: 20px;
+  text-align: center;
+  margin: 10px 0;
+  line-height: 1.5;
+  cursor: pointer;
+  color: rgba(255,255,255,0.5);
+}
+.kumamon_btn:hover,.kumamon_active {
+  border: 1px solid rgba(255,255,255,1);
+  color: rgba(255,255,255,1);
+}
+.kumamon_loading {
+  top: 0;
+  text-align: center;
+  color: rgba(247,9,170,1);
+  width: 200%;
+  height: 200%;
+  position: absolute;
+  padding-top: 40%;
+  font-size: 20px;
+}
